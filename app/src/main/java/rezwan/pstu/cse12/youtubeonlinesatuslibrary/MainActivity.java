@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        NetworkChangeReceiver r = new NetworkChangeReceiver(this);
-        r.checkConnection();
+       // NetworkChangeReceiver r = new NetworkChangeReceiver(this);
+       // r.checkConnection();
     }
 }
