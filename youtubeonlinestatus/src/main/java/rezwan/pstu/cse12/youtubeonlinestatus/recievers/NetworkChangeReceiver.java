@@ -25,7 +25,7 @@ public class NetworkChangeReceiver extends Activity{
     }
 
 
-    public void checkConnection(){
+    public void build(){
         if (br == null){
             br = new BroadcastReceiver() {
                 @Override
