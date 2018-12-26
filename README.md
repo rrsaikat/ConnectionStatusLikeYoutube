@@ -37,6 +37,9 @@ Add the dependency
 	        implementation 'com.github.rrsaikat:ConnectionStatusLikeYoutube:v1.0.1'
 	}
 
+## NOTE
+ To handle errors or use this library you have to migrate your android.support into androidx . See the full project migration process at here: ![https://developer.android.com/jetpack/androidx/migrate](Click me)
+
 ## LICENSE
  Copyright 2018 Md. rezwan rabbi
 
