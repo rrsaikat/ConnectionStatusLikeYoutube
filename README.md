@@ -7,21 +7,21 @@
 A simple library to check internet  every time using Broadcast Receiver like same as Youtube (online,offline)
 
 <p align="start">
-  <img src="https://github.com/rrsaikat/ConnectionStatusLikeYoutube/blob/master/app/src/main/res/drawable/onlineStatus.gif" height="420" width="240"/>
+  <img src="https://github.com/rrsaikat/ConnectionStatusLikeYoutube/blob/master/app/src/main/res/drawable/onlineStatus.gif" height="420" width="220"/>
 </p>
 
 
 ## TODO
 
 ### Step 1
-Just declare this two lines into your onCreate() or onStart() method:
+Add this dependency to the app build.gradle file:
 
-	NetworkChangeReceiver changeReceiver = new NetworkChangeReceiver(this);
-	changeReceiver.build();
-
+	dependencies {
+	        implementation 'com.github.rrsaikat:ConnectionStatusLikeYoutube:v1.0.1'
+	}
 
 ### Step 2
-Add it in your root build.gradle at the end of repositories:
+ Add it in your root build.gradle at the end of repositories:
 
     allprojects {
       repositories {
@@ -31,11 +31,15 @@ Add it in your root build.gradle at the end of repositories:
     }
 
 ### Step 3
-Add the dependency
+Sync & build with net connection.
 
-	dependencies {
-	        implementation 'com.github.rrsaikat:ConnectionStatusLikeYoutube:v1.0.1'
-	}
+## Step 4
+Finally just declare this two lines into your onCreate() or onStart() method:
+
+	NetworkChangeReceiver changeReceiver = new NetworkChangeReceiver(this);
+	changeReceiver.build();
+
+
 
 ## NOTE
 To handle errors or use this library you have to migrate your android.support into androidx . See the full project migration process at here: [Click Me](https://developer.android.com/jetpack/androidx/migrate)
