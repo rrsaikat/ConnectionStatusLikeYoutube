@@ -6,35 +6,21 @@
 
 A simple library to check internet  every time using Broadcast Receiver like same as Youtube (online,offline)
 
+<p align="start">
+  <img src="https://imgur.com/Kxz5qvn" height="400" width="220"/>
+</p>
+
+
 ## TODO
 
 ### Step 1
-First we need following permission in order to access network state. Add following permission to your AndroidManifest.xml file.
-Permissions required to access network state:
+Just declare this two lines into your onCreate() or onStart() method:
 
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-    
+	NetworkChangeReceiver changeReceiver = new NetworkChangeReceiver(this);
+	changeReceiver.build();
+
 
 ### Step 2
-we need to define the BroadcastReceiver in AndroidMenifest.xml file.
-Add following to your menifest file.
-
-    <application  ...>
-         ...
-            <receiver
-                android:name=".recievers.NetworkChangeReceiver"
-                android:label="NetworkChangeReceiver" >
-                <intent-filter>
-                    <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
-                    <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
-                </intent-filter>
-            </receiver>
-          ...
-    </application>
-
-### Step 3
 Add it in your root build.gradle at the end of repositories:
 
     allprojects {
@@ -44,11 +30,11 @@ Add it in your root build.gradle at the end of repositories:
       }
     }
 
-### Step 4
+### Step 3
 Add the dependency
 
 	dependencies {
-	        implementation 'com.github.rrsaikat:ConnectionStatusLikeYoutube:v1.0.0'
+	        implementation 'com.github.rrsaikat:ConnectionStatusLikeYoutube:v1.0.1'
 	}
 
 ## LICENSE
