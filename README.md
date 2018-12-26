@@ -7,7 +7,7 @@
 A simple library to check internet  every time using Broadcast Receiver like same as Youtube (online,offline)
 
 <p align="start">
-  <img src="https://github.com/rrsaikat/ConnectionStatusLikeYoutube/blob/master/app/src/main/res/drawable/onlineStatus.gif" height="380" width="220"/>
+  <img src="https://github.com/rrsaikat/ConnectionStatusLikeYoutube/blob/master/app/src/main/res/drawable/onlineStatus.gif" height="420" width="240"/>
 </p>
 
 
