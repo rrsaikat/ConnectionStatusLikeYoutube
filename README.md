@@ -7,8 +7,10 @@
 A simple library to check internet  every time using Broadcast Receiver like same as Youtube (online,offline)
 
 <p align="start">
-  <img src="http://imgur.com/Kxz5qvn" height="400" width="220"/>
+  <img src="http://imgur.com/Kxz5qvn"/>
 </p>
+
+![]http://imgur.com/Kxz5qvn)
 
 <blockquote class="imgur-embed-pub" lang="en" data-id="Kxz5qvn"><a href="//imgur.com/Kxz5qvn">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
