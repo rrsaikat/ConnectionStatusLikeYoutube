@@ -42,7 +42,14 @@ Finally just declare this two lines into your onCreate() or onStart() method:
 
 
 ## NOTE
-To handle errors or use this library you have to migrate your android.support into androidx . See the full project migration process at here: [Click Me](https://developer.android.com/jetpack/androidx/migrate)
+To handle errors or use this library you have to migrate your android.support into androidx . See the full project migration process at here: [Click Me](https://developer.android.com/jetpack/androidx/migrate)``
+
+# Release Notes
+* 1.0.1:
+    * Latest library used of Snacky & add support for android P.
+* 1.0.0:
+    * Custom snackbar added.
+    * Use last version of Android studio 3.2.1
 
 ## LICENSE
  Copyright 2018 Md. rezwan rabbi
